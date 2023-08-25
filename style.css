@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(image1.jpg);
+  height: 750px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg2 {
+  background-image: url(image2.jpg);
+  height: 750px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg3 {
+  background-image: url(image3.jpg);
+  height: 750px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg4 {
+  background-image: url(image4.jpg);
+  height: 750px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+.textbg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+.textbg:hover {
+  background: rgb(64, 210, 93);
+  transition: 2s;
+}
+.second {
+  width: 80%;
+  padding: 50px, 80px;
+  text-align: center;
+  margin-left: 110px;
+}
+.color {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.darkColor {
+  background-color: #282e34;
+  color: #ddd;
+}
